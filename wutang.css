@@ -1,0 +1,646 @@
+
+[dir="rtl"] {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+[dir="ltr"] {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+
+article,
+aside,
+div,
+dt,
+figcaption,
+footer,
+form,
+header,
+hgroup,
+html,
+main,
+nav,
+section {
+  display: block;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+p, dl, multicol {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+dd {
+  display: block;
+  -moz-margin-start: 40px;
+}
+
+blockquote, figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  -moz-margin-start: 40px;
+  -moz-margin-end: 40px;
+}
+
+address {
+  display: block;
+  font-style: italic;
+}
+
+center {
+  display: block;
+  text-align: -moz-center;
+}
+
+blockquote[type=cite] {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  -moz-margin-start: 0;
+  -moz-margin-end: 0;
+  -moz-padding-start: 1em;
+  -moz-border-start: solid;
+  border-color: blue;
+  border-width: thin;
+}
+
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-block-start: .67em;
+  margin-block-end: .67em;
+}
+
+h2,
+h1 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-block-start: .83em;
+  margin-block-end: .83em;
+}
+
+h3,
+h1 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+h4,
+h1 {
+  display: block;
+  font-size: 1.00em;
+  font-weight: bold;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+}
+
+h5,
+h1 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+}
+
+h6,
+h1 {
+  display: block;
+  font-size: 0.67em;
+  font-weight: bold;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+}
+
+listing {
+  display: block;
+  font-family: -moz-fixed;
+  font-size: medium;
+  white-space: pre;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+xmp, pre, plaintext {
+  display: block;
+  font-family: -moz-fixed;
+  white-space: pre;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+/* tables */
+
+table {
+  display: table;
+  border-spacing: 2px;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: 0;
+}
+
+table[align="left"] {
+  float: left;
+}
+
+table[align="right"] {
+  float: right;
+  text-align: start;
+}
+
+ 
+caption {
+  display: table-caption;
+  text-align: center;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+}
+
+col {
+  display: table-column;
+}
+
+colgroup {
+  display: table-column-group;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+}
+
+tfoot {
+  display: table-footer-group;
+  vertical-align: middle;
+}
+
+
+table > tr {
+  vertical-align: middle;
+}
+
+td { 
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: inherit; 
+  padding: 1px;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  padding: 1px;
+}
+
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+i, cite, em, var, dfn {
+  font-style: italic;
+}
+
+tt, code, kbd, samp {
+  font-family: -moz-fixed;
+}
+
+u, ins {
+  text-decoration: underline;
+}
+
+s, strike, del {
+  text-decoration: line-through;
+}
+
+big {
+  font-size: larger;
+}
+
+small {
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+  line-height: normal;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+  line-height: normal;
+}
+
+nobr {
+  white-space: nowrap;
+}
+
+mark {
+  background: yellow;
+  color: black;
+}
+
+/* titles */
+abbr[title], acronym[title] {
+  border-block-end: dotted 1px;
+}
+
+
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  -moz-padding-start: 40px;
+}
+
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  -moz-padding-start: 40px;
+}
+
+li {
+  display: list-item;
+}
+
+
+hr {
+  display: block;
+  border: 1px inset;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  -moz-margin-start: auto;
+  -moz-margin-end: auto;
+  color: gray;
+  -moz-float-edge: margin-box;
+  box-sizing: border-box;
+}
+
+img[usemap], object[usemap] {
+  color: blue;
+}
+
+frameset {
+  display: block ! important;
+  overflow: -moz-hidden-unscrollable;
+  position: static ! important;
+  float: none ! important;
+  border: none ! important;
+}
+
+link { 
+  display: none;
+}
+
+frame {
+  border-radius: 0 ! important;
+}
+
+iframe {
+  border: 2px inset;
+}
+
+noframes {
+  display: none;
+}
+
+spacer {
+  position: static ! important;
+  float: none ! important;
+}
+
+canvas {
+  -moz-user-select: none;
+}
+
+
+base, basefont, datalist, head, meta, script, style, title,
+noembed, param, template {
+   display: none;
+}
+
+area {
+  /* Don't give it frames other than its imageframe */
+  display: none ! important;
+}
+
+iframe:-moz-full-screen {
+  /* iframes in full-screen mode don't show a border. */
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* media elements */
+video > xul|videocontrols, audio > xul|videocontrols {
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-binding: url("chrome://global/content/bindings/videocontrols.xml#videoControls");
+}
+
+video:not([controls]) > xul|videocontrols,
+audio:not([controls]) > xul|videocontrols {
+  visibility: hidden;
+  -moz-binding: none;
+}
+
+video {
+  object-fit: contain;
+}
+
+
+audio:not([controls]) {
+  display: none;
+}
+
+
+video > .caption-box {
+  position: relative;
+  overflow: hidden;
+}
+
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%; 
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; 
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+
+[hidden],
+template {
+  display: none;
+}
+
+
+a {
+  background-color: transparent;
+}
+
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+
+b,
+strong {
+  font-weight: bold;
+}
+
+
+dfn {
+  font-style: italic;
+}
+
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+
+small {
+  font-size: 80%;
+}
+
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+
+figure {
+  margin: 1em 40px;
+}
+
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+
+pre {
+  overflow: auto;
+}
+
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit; 
+  margin: 0;
+}
+
+
+button {
+  overflow: visible;
+}
+
+
+button,
+select {
+  text-transform: none;
+}
+
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; 
+  cursor: pointer;
+}
+
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+input {
+  line-height: normal;
+}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; 
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; 
+  box-sizing: content-box;
+}
+
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+
+legend {
+  border: 0;
+  padding: 0; 
+}
+
+
+textarea {
+  overflow: auto;
+}
+
+
+optgroup {
+  font-weight: bold;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
